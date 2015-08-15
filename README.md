@@ -28,3 +28,6 @@ Just playing around, having fun.
 
 ## 09
 ![Generative 09](./images/generative09.png)
+
+## 10
+![Generative 10](./images/generative10.png)
