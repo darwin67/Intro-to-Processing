@@ -37,7 +37,7 @@ void draw() {
       drawPoint(x, y, noise(xnoise, ynoise));
     }
   }
-  export();
+//  export();
 }
 
 void drawPoint(float x, float y, float noiseFactor) {

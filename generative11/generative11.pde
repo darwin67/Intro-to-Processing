@@ -55,7 +55,7 @@ void draw() {
   stroke(_strokeCol, 60);
   strokeWeight(1);
   line(x1, y1, x2, y2);
-  export();
+//  export();
 }
 
 void export() {

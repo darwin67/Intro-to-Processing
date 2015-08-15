@@ -29,7 +29,7 @@ void draw() {
     ellipse(centX, centY, diam, diam);
     diam += 10;
   }
-  export();
+//  export();
 }
 
 void export() {
