@@ -36,6 +36,7 @@ void setup() {
 }
 
 float customNoise(float value) {
-  float retValue = pow(sin(value), 3);
+  int count = int((value % 12));
+  float retValue = pow(sin(value), count);
   return retValue;
 }
