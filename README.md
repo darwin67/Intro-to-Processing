@@ -9,7 +9,7 @@ Just playing around, having fun.
 ![Generative 02](./images/generative02.png)
 
 ## 03
-![Generative 03](./images/generative03.png)
+![Generative 03](./images/generative03.gif)
 
 ## 04
 ![Generative 04](./images/generative04.png)
