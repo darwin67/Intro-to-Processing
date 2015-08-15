@@ -48,4 +48,4 @@ Just playing around, having fun.
 ![Generative 15](./images/generative15.png)
 
 ## 16
-![Generative 16](./images/generative11.gif)
+![Generative 16](./images/generative16.gif)
