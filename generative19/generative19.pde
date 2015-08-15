@@ -13,8 +13,8 @@ void setup() {
   sphereDetail(8);
   noStroke();
   
-  gif = new GifMaker(this, "generative19.gif", 100);
-  gif.setRepeat(0);
+//  gif = new GifMaker(this, "generative19.gif", 100);
+//  gif.setRepeat(0);
   
   xstart = random(10);
   ystart = random(10);
@@ -37,7 +37,7 @@ void draw() {
       drawPoint(x, y, noise(xnoise, ynoise));
     }
   }
-  export();
+//  export();
 }
 
 void drawPoint(float x, float y, float noiseFactor) {
