@@ -33,7 +33,7 @@ Just playing around, having fun.
 ![Generative 10](./images/generative10.png)
 
 ## 11
-![Generative 11](./images/generative11.png)
+![Generative 11](./images/generative11.gif)
 
 ## 12
 ![Generative 12](./images/generative12.png)

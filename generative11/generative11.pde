@@ -1,3 +1,9 @@
+import gifAnimation.*;
+
+GifMaker gifExport;
+int frames = 0;
+int totalFrames = 1000;
+
 float _angnoise, _radiusnoise;
 float _xnoise, _ynoise;
 float _angle = -PI / 2;
@@ -11,6 +17,9 @@ void setup() {
   frameRate(30);
   background(255);
   noFill();
+  
+  gifExport = new GifMaker(this, "generative11.gif", 100);
+  gifExport.setRepeat(0);
   
   _angnoise = random(10);
   _radiusnoise = random(10);
@@ -46,4 +55,18 @@ void draw() {
   stroke(_strokeCol, 60);
   strokeWeight(1);
   line(x1, y1, x2, y2);
+  export();
+}
+
+void export() {
+  if (frames < totalFrames) {
+    gifExport.setDelay(20);
+    gifExport.addFrame();
+    frames++;
+  } else {
+    gifExport.finish();
+    frames++;
+    println("gif exported");
+    exit();
+  }
 }
