@@ -12,8 +12,8 @@ void setup() {
   background(255);  
   smooth();
   
-  gif = new GifMaker(this, "generative22.gif", 100);
-  gif.setRepeat(0);
+//  gif = new GifMaker(this, "generative22.gif", 100);
+//  gif.setRepeat(0);
   
   strokeWeight(1);
   fill(150, 50);
@@ -26,7 +26,7 @@ void draw() {
     Circle thisCirc = _circleArr[i];
     thisCirc.updateMe();
   }
-  export();
+//  export();
 }
 
 void mouseReleased() {
