@@ -13,8 +13,8 @@ void setup() {
   _numX = floor(width / _cellSize);
   _numY = floor(height / _cellSize);
   
-  gif = new GifMaker(this, "generative23.gif", 100);
-  gif.setRepeat(0);
+//  gif = new GifMaker(this, "generative23.gif", 100);
+//  gif.setRepeat(0);
   
   restart();
 }
@@ -71,7 +71,7 @@ void draw() {
     }
   }
   
-  export();
+//  export();
 }
 
 void mousePressed() {
