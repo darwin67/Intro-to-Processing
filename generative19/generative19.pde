@@ -21,7 +21,7 @@ void setup() {
 }
 
 void draw() {
-  background(255);
+  background(0);
   
   xstart += 0.01;
   ystart += 0.01;
