@@ -78,4 +78,4 @@ Just playing around, having fun.
 ![Generative 25](./images/generative25.gif)
 
 ## 26 (Wave)
-![Generative 26](./images/generative26.png)
+![Generative 26](./images/generative26.gif)
