@@ -67,3 +67,6 @@ Just playing around, having fun.
 
 ## 22
 ![Generative 22](./images/generative22.gif)
+
+## 23 (Game of Life)
+![Generative 23](./images/generative23.gif)
