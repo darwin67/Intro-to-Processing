@@ -11,7 +11,6 @@ Branch _trunk;
 
 void setup() {
   size(750, 500);
-  size(750, 500);
   background(255);
   noFill();
   smooth();
@@ -30,7 +29,7 @@ void draw() {
 }
 
 void newTree() {
-  _trunk = new Branch(1, 0, width / 2, 50);
+  _trunk = new Branch(1, 0, width / 2, height / 2);
   _trunk.drawMe();
 }
 
@@ -52,9 +51,11 @@ class Branch {
   float level, index;
   float x, y;
   float endx, endy;
+
   float strokeW, alph;
   float len, lenChange;
   float rot, rotChange;
+
   Branch[] children = new Branch[0];
   
   Branch(float lev, float ind, float ex, float why) {
@@ -62,7 +63,7 @@ class Branch {
     index = ind;
     strokeW = (1 / level) * 10;
     alph = 255 / level;
-    len = (1 / level) * random(200);
+    len = (1 / level) * random(500);
     rot = random(360);
     lenChange = random(10) - 5;
     rotChange = random(10) - 5;
