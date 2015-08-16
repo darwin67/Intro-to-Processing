@@ -76,3 +76,6 @@ Just playing around, having fun.
 
 ## 25 (Brian's Brain)
 ![Generative 25](./images/generative25.gif)
+
+## 26 (Wave)
+![Generative 26](./images/generative26.png)
