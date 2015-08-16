@@ -60,4 +60,4 @@ Just playing around, having fun.
 ![Generative 19](./images/generative19.gif)
 
 ## 20
-![Generative 20](./images/generative20.png)
+![Generative 20](./images/generative20.gif)
