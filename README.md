@@ -70,3 +70,6 @@ Just playing around, having fun.
 
 ## 23 (Game of Life)
 ![Generative 23](./images/generative23.gif)
+
+## 24 (Vichniac Vote)
+![Generative 24](./images/generative24.gif)
