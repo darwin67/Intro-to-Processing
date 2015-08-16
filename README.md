@@ -73,3 +73,6 @@ Just playing around, having fun.
 
 ## 24 (Vichniac Vote)
 ![Generative 24](./images/generative24.gif)
+
+## 25 (Brian's Brain)
+![Generative 25](./images/generative25.gif)
