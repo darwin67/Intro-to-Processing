@@ -82,3 +82,6 @@ Just playing around, having fun.
 
 ## 27
 ![Generative 27](./images/generative27.gif)
+
+## 28
+![Generative 28](./images/generative28.gif)
